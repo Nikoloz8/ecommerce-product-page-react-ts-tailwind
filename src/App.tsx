@@ -78,7 +78,7 @@ function App() {
 
         <div className='w-[1200px] max-lg:w-[100vw] relative'>
 
-        {toggleHeader ? <div className='absolute w-[100%] h-[100%] bg-[rgba(0,0,0,0.8)]'>
+        {toggleHeader ? <div className='absolute w-[100%] z-[10] h-[100%] bg-[rgba(0,0,0,0.8)]'>
 
         </div> : null}
 
