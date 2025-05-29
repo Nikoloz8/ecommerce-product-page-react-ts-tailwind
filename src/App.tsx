@@ -29,7 +29,6 @@ function App() {
     }
   }
 
-
   const [selectedImage, setSelectedImage] = useState(0)
   const [hideImage, setHideImage] = useState(false)
   const [count, setCount] = useState(0)
