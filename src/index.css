@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@layer base{
+    html{
+        font-size: 10px;
+        font-family: "Kumbh Sans";
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@theme{
+    --breakpoint-mobile: 30rem;
+}
